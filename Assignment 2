@@ -1,0 +1,11 @@
+#include <stdio.h>
+void recursion_down(int n)
+{
+    printf("%d",n);
+    if(n>1)
+    recursion_down(n-1);
+    }
+    int main()
+    {
+        recursion_down(10);
+    }
